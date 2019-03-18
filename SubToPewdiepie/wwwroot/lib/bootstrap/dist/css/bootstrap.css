@@ -11,6 +11,10 @@ html {
 }
 body {
   margin: 0;
+
+}
+.oofer {
+    padding: 100px, 100px, 100px, 100px;
 }
 article,
 aside,
@@ -117,15 +121,23 @@ textarea {
   font: inherit;
   color: inherit;
 }
+.image-css {
+    padding-left:25vw;
+    padding-top:25vh;
+    padding-bottom:25vh;
+}
 button {
-  overflow: visible;
+    overflow: visible;
+    width:45vw;
+    height:45vh
 }
 button,
 select {
   text-transform: none;
 }
 button,
-html input[type="button"],
+html input[type="button"] {
+}
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;

@@ -18,6 +18,12 @@ body {
     line-height: 1.4;
 }
 
+.oofer {
+    padding: 400px, 50vh, 50vh, 50vh;
+    align-self: center;
+
+}
+
 /* Make .svg files in the carousel display properly in older browsers */
 .carousel-inner .item img[src$=".svg"] {
     width: 100%;

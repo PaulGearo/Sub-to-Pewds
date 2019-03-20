@@ -122,9 +122,11 @@ textarea {
   color: inherit;
 }
 .image-css {
-    padding-left:25vw;
-    padding-top:25vh;
-    padding-bottom:25vh;
+    align-content:center;
+    vertical-align:central;
+}
+.class2 {
+    padding-right: 50vw;
 }
 button {
     overflow: visible;

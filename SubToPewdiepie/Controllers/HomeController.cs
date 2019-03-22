@@ -15,27 +15,24 @@ namespace SubToPewdiepie.Controllers
             return View();
         }
 
-<<<<<<< HEAD
-=======
+
         public IActionResult About()
         {
             return View();
         }
 
->>>>>>> f47adea8325637fbe419e111ad9e79b3f5c86026
+
         public IActionResult Contact()
         {
             return View();
         }
 
-<<<<<<< HEAD
-=======
         public IActionResult Merch()
         {
             return View();
         }
 
->>>>>>> f47adea8325637fbe419e111ad9e79b3f5c86026
+
         public IActionResult Privacy()
         {
             return View();

@@ -1,7 +1,49 @@
 ﻿@{
     ViewData["Title"] = "About";
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
 
-<p>Use this area to provide additional information.</p>
+<style>
+    .fblogo {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 90px;
+    }
+
+    #images {
+        text-align: center;
+    }
+
+</style>
+
+
+<body style="background-image:url(https://i.redditmedia.com/1mYT4kfOMfiNsp8Ka72pFF-Wiz5IL-nlLUFiifvK314.jpg?w=320&amp;s=90f282a04d669c9514aa83271a8ed19e); height:100%; width:100%; background-size: cover">
+
+    <audio src="~/BitchLasagna.mp3" preload="auto" autoplay="autoplay"></audio>
+
+    @*<div id="images">
+        <a href="https://play.google.com/store/apps/details?id=com.DoubleMoose.AnimalSuperSquad&hl=en_US">
+            <img class="fblogo" src="https://i.ytimg.com/vi/JqChjkxIlK8/maxresdefault.jpg" style=" width: 205px; height: 120px;border:7px solid black;" />
+        </a>*@
+
+        <div>
+            <h2 class="text-center" style="color:white;"><span style="background-color:black;">Animal Super Squad</span></h2>
+            <a href="https://play.google.com/store/apps/details?id=com.DoubleMoose.AnimalSuperSquad&hl=en_US">
+                <img class="fblogo; img-responsive center-block" style="border:7px solid black" src="https://i.ytimg.com/vi/JqChjkxIlK8/maxresdefault.jpg" />
+            </a>
+        </div>
+        <div>
+            <h2 class="text-center" style="color:white;"><span style="background-color:black;">Tuber Simulator</span></h2>
+            <a href="https://play.google.com/store/apps/details?id=com.outerminds.tubular&hl=en_US">
+                <img class="fblogo; img-responsive center-block" style="border:7px solid black" src="https://pmcvariety.files.wordpress.com/2016/09/pewdiepies-tuber-simulator.png?w=1000&h=563&crop=1" />
+            </a>
+        </div>
+
+
+
+        @*<a href="https://www.facebook.com/OlympiaHaacht">
+            <img class="fblogo" src="http://olympiahaacht.be/wp-content/uploads/2012/04/FacebookButtonRevised-e1334605872360.jpg" style=" width: 205px; height: 120px;border:7px solid black;" />
+        </a>
+    </div>*@
+
+</body>
